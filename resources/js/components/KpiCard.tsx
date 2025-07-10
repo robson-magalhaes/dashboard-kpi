@@ -27,7 +27,7 @@ export default function KpiCard({ kpi }: KpiCardProps) {
   return (
     <div className="bg-white rounded-lg shadow p-6 transition-transform hover:-translate-y-1 h-full">
       <h3 className="text-gray-600 text-sm font-medium mb-4">{kpi.titulo}</h3>
-      <p className="text-3xl font-bold mb-2">{formatValue()}</p>
+      <p className="text-3xl font-bold mb-2 text-black">{formatValue()}</p>
       <div className={`flex items-center ${colorClass}`}>
         <Icon className="h-4 w-4 mr-1" />
         <span>{kpi.variacao_percentual}%</span>
