@@ -1,7 +1,7 @@
 import { LucideIcon } from 'lucide-react';
 import type { Config } from 'ziggy-js';
 
-export interface KPI {
+export interface Kpi {
   id: number;
   titulo: string;
   valor: number;
